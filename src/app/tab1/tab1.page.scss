@@ -1,0 +1,43 @@
+.titulo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.titulo-nome {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  color: white;
+}
+ion-content {
+  scroll-behavior: auto;
+  overflow: visible;
+}
+
+.teste {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card2 {
+  background: linear-gradient(
+    180deg,
+    rgba(61, 194, 255, 1) 0%,
+    rgba(147, 221, 255, 1) 56%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin-top: -10px;
+}
+.comprar {
+  width: 100%;
+  background-color: #3dc2ff;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.img {
+  width: 80%;
+}

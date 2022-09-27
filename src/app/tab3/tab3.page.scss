@@ -1,0 +1,35 @@
+.titulo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.titulo-nome {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+.info {
+  text-align: center;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+  border-radius: 1.3rem;
+}
+
+.contato {
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 0.6rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-color: #3dc2ff;
+  background-color: #3dc2ff;
+  margin-bottom: 1.5rem;
+}
+.contato:hover {
+  cursor: pointer;
+}
